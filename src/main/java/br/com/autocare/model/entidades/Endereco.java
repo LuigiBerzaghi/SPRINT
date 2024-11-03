@@ -2,6 +2,7 @@ package br.com.autocare.model.entidades;
 
 public class Endereco {
 	
+	private int id;
 	private String cep;
 	private String logradouro;
 	private String complemento;
@@ -13,8 +14,9 @@ public class Endereco {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Endereco(String cep, String logradouro, String complemento, String bairro, String uf) {
+	public Endereco(int id, String cep, String logradouro, String complemento, String bairro, String uf) {
 		super();
+		this.id = id;
 		this.cep = cep;
 		this.logradouro = logradouro;
 		this.complemento = complemento;
@@ -60,6 +62,14 @@ public class Endereco {
 
 	public void setUf(String uf) {
 		this.uf = uf;
+	}
+	
+	public int getid() {
+		return id;
+	}
+
+	public void setid(int id) {
+		this.id = id;
 	}
 
 	@Override

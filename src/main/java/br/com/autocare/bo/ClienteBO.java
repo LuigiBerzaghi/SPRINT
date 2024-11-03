@@ -13,13 +13,8 @@ public class ClienteBO {
 
     // Construtor que inicializa o ClienteDAO
     public ClienteBO() {
-        try {
-            this.clienteDAO = new ClienteDAO();
-            System.out.println("ClienteDAO foi inicializado com sucesso.");
-        } catch (SQLException e) {
-            System.err.println("Erro ao inicializar ClienteDAO.");
-            e.printStackTrace();
-        }
+        this.clienteDAO = new ClienteDAO();
+		System.out.println("ClienteDAO foi inicializado com sucesso.");
     }
 
     // Método para inserir um novo cliente
