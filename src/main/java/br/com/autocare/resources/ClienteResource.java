@@ -20,8 +20,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriBuilder;
 import javax.ws.rs.core.UriInfo;
 
-
-import br.com.autocare.bo.ClienteBO;
+import br.com.autocare.model.bo.ClienteBO;
 import br.com.autocare.model.entidades.Cliente;
 
 

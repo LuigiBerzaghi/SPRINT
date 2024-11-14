@@ -1,4 +1,4 @@
-package br.com.autocare.bo;
+package br.com.autocare.model.bo;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
